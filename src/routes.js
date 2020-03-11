@@ -8,7 +8,6 @@ routes.get('/', (req, res) => {
 });
 
 routes.post('/devs', (req, res) => {
-    console.log(req.body);
     return res.json({ ok: true})
 });
 

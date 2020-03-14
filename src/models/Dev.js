@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 const DevSchema = new Schema({
-    nome: {
+    name: {
         type: String,
         required: true,
     },
@@ -13,7 +13,7 @@ const DevSchema = new Schema({
     avatar: {
         type: String,
         required: true,
-    }
+    },
 }, {
     timestamps: true,
 });
